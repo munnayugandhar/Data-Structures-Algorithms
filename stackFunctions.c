@@ -63,7 +63,8 @@ void push()
         int ele;
         printf("Enter element to be inserted\n");
         scanf("%d",&ele);
-        stack[++top]=ele;
+        top = top +1;
+        stack[top]=ele;
         printf("Element inserted successfully\n");
         
     }
